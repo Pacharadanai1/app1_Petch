@@ -10,7 +10,9 @@ export default class Button extends Component {
   };
 
   render() {
-    return <button onClick={this.onClickButtonOK}>OK</button>;
+    return <div style={{textAlign:'center'}}> 
+    <button onClick={this.onClickButtonOK}>OK</button>
+    </div>
   }
 }
 
