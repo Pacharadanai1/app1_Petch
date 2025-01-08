@@ -1,6 +1,20 @@
 import React, { Component } from "react";
 
-export default class Calendar extends Component {
+export default class Button extends Component {
+  showAlert(msg) {
+    alert(msg);
+  }
+
+  onClickButtonOK = () => {
+    this.showAlert("Hollo");
+  };
+
+  render() {
+    return <button onClick={this.onClickButtonOK}>OK</button>;
+  }
+}
+
+/*export default class Calendar extends Component {
   getDate() {
     const dayNames = [
       "อาทิตย์",
@@ -39,4 +53,4 @@ export default class Calendar extends Component {
       </div>
     );
   }
-}
+}*/
