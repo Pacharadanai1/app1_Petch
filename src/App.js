@@ -5,7 +5,7 @@ import Botton from "./class-components";
 import { Calculator2 } from "./calculator";
 import { EventData2 } from "./event-data";
 
-function App() {
+ function App() {
   return (
     <>
       <Header />
