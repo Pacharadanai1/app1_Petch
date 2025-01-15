@@ -1,4 +1,4 @@
-import React, { Component, useState } from "react";
+import React, { useState } from "react";
 
 export default function MessageBox(){
     let [text, setText] = useState("What 's Bro!!!")
