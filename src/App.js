@@ -17,8 +17,8 @@ export default function App() {
       <Calculator2 /> <br/>
       <EventData2 />
       <RefsFunc />  <br/>
+      <MessageBox/> <br/>
       <Footer /> <br/>
-      <MessageBox/>
     </>
   );
 }
