@@ -6,6 +6,7 @@ import Botton from "./class-components";
 import { Calculator2 } from "./calculator";
 import { EventData2 } from "./event-data";
 import RefsFunc from "./refs-func";
+import MessageBox from "./state-func";
 
 export default function App() {
   return (
@@ -16,7 +17,8 @@ export default function App() {
       <Calculator2 /> <br/>
       <EventData2 />
       <RefsFunc />  <br/>
-      <Footer />
+      <Footer /> <br/>
+      <MessageBox/>
     </>
   );
 }
