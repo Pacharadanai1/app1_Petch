@@ -1,11 +1,13 @@
 import React from "react";
+
 import { Header, Content, Footer } from "./func-components";
 //import Calendar from "./class-components";
 import Botton from "./class-components";
 import { Calculator2 } from "./calculator";
 import { EventData2 } from "./event-data";
+import RefsFunc from "./refs-func";
 
- function App() {
+export default function App() {
   return (
     <>
       <Header />
@@ -13,9 +15,8 @@ import { EventData2 } from "./event-data";
       <Botton /> <br/>
       <Calculator2 /> <br/>
       <EventData2 />
+      <RefsFunc />  <br/>
       <Footer />
     </>
   );
 }
-
-export default App;
