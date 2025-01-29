@@ -13,7 +13,7 @@ export default function Content2(){
 
     return (
         <div style={contentStyle}>
-            Hello {user}
+            What's up {user}
         </div>
     )
 }
