@@ -7,10 +7,12 @@ import { Calculator2 } from "./calculator";
 import { EventData2 } from "./event-data";
 import RefsFunc from "./refs-func";
 import MessageBox from "./state-func";
+import { userContext } from "./context";
+import Content2 from "./context-content";
 
 export default function App() {
   return (
-    <>
+    <userContext.Provider value={'สุดหล่อ'}>
       <Header />
       <Content />
       <Botton /> <br/>
@@ -18,7 +20,8 @@ export default function App() {
       <EventData2 />
       <RefsFunc />  <br/>
       <MessageBox/> <br/>
+      <Content2 />
       <Footer /> <br/>
-    </>
+    </userContext.Provider>
   );
 }
