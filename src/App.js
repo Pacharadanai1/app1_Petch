@@ -11,11 +11,13 @@ import { userContext } from "./context";
 import Content2 from "./context-content";
 import Header2 from "./context-header2";
 import Content3 from "./context-content2";
+import Router2 from "./router2";
 
 export default function App() {
   let [user,setUser] = React.useState()
   return (
     <userContext.Provider value={[user,setUser]}>
+      <Router2/> <br/>
       <Header2 />
       <Content3/>
       <Content />
@@ -25,6 +27,7 @@ export default function App() {
       <RefsFunc />  <br/>
       <MessageBox/> <br/>
       <Content2 />
+
       <Footer /> <br/>
     </userContext.Provider>
   );
